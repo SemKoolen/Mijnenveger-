@@ -1,0 +1,78 @@
+* {
+  margin:0px;
+  padding:0px;
+}
+
+body {
+  font-family:Arial;
+  font-size:20px;
+  background-color: gray;
+}
+
+h1 {
+  text-align:center;
+  margin-bottom:20px;
+}
+
+#wrapper {
+  background-color:white;
+  width:80%;
+  margin:20px auto;
+  padding:10px 0px 5px 0px;
+}
+
+header {
+  margin-top:20px;
+  margin-left:20px;
+}
+
+#speelveld img {
+  width:50px;
+  height:50px;
+}
+
+#wrapper>div {
+  text-align: center;
+}
+
+canvas {
+  display:inline;
+}
+
+.klein {
+  font-size:60%;
+  color:red;
+}
+
+#row font {
+  margin-left: 30px;
+  margin-Right: 10px;
+}
+
+#speelveld>div>div {
+   height:50px;
+   width:50px;
+   background-color:#d3d3d3;
+   float: left;
+   border: 1px solid #666666;
+}
+
+input {
+  width: 100px;
+}
+
+nav {
+  clear: left;
+  text-align:center;
+}
+
+footer {
+  width:500px;
+  border-color:red;
+  border-width:thin;
+  border-style:solid;
+  padding:10px;
+  margin:20px auto;
+  text-align:center;
+  color:red;
+}

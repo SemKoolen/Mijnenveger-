@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mijnenveger lite</title>
+		<link rel="stylesheet" type='text/css' href="css/mijnenveger.css">
+		<script type="text/javascript" src="js/controller/MijnenvegerController.js"></script>
+		<script type="text/javascript" src="js/view/MijnenvegerView.js"></script>
+		<script type="text/javascript" src="js/model/MijnenvegerModel.js"></script>
+		<script type="text/javascript" src="js/start.js"></script>
+ 	</head>
+ 	<body>
+		<div id="wrapper">
+			<header>
+				<img src="img/logo.jpg" alt="logo"/>
+	 			<h1>Mijnenveger<sup><span class="klein">Lite</span></sup></h1>
+		 	</header>
+			<div id="row">
+				<font>Rijen</font><font>Kolommen</font></br>
+				<input type="number" id="kolomSize" value="5">
+				<input type="number" id="rowSize" value="5">
+			</div>
+			<div>
+				<canvas id="myCanvas" width="252" height="252"></canvas>
+			</div>
+			<nav>
+				<button>Start Spel</button>
+			</nav>
+			<footer></footer>
+		</div>
+	</body>
+	</html>
